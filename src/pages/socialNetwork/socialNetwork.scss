@@ -1,0 +1,28 @@
+@import '../../common.scss';
+
+.social-network {
+  margin: 0 1rem;
+
+  div.website-content {
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    margin-left: 13rem;
+    padding: 0;
+
+    @include mobile {
+      flex-direction: column;
+      margin-left: 70px;
+    }
+    
+    .pages {
+      flex: 3;
+      padding-left: 0;;
+    }
+    
+    .news {
+      flex: 2;
+      padding-left: 25px;;
+    }
+  }
+}
